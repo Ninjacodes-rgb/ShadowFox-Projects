@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subham Das | Portfolio</title>
+    <meta
+      name="description"
+      content="A dynamic and interactive portfolio showcasing my work in web development and software engineering."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar glass">
+      <div class="logo">SUBHAM DAS<span>_</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" class="btn-primary">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Hi, I'm <span class="gradient-text">Subham</span><br /><span
+            id="typewriter"
+          ></span>
+        </h1>
+        <p class="hero-subtitle">
+          Student at Narula Institute of Technology, bridging the gap between
+          backend logic and dynamic frontend experiences.
+        </p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-secondary">Let's Talk</a>
+        </div>
+      </div>
+      <div class="hero-image-container">
+        <div class="glass avatar-wrapper">
+          <img src="profile.jpeg" alt="Subham's Avatar" class="hero-avatar" />
+        </div>
+      </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects" class="container reveal">
+      <h2 class="section-title">
+        Featured <span class="gradient-text">Projects</span>
+      </h2>
+      <div class="project-grid">
+        <!-- Project 1 -->
+        <article class="project-card glass">
+          <div class="project-img bg-pattern-1"></div>
+          <a
+            href="https://github.com/Ninjacodes-rgb/Real-Time-Chat-App"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Click here</a
+          >
+          <div class="project-info">
+            <h3>Chat App</h3>
+            <p>
+              A full-stack real-time messaging application built with the MERN
+              stack.
+            </p>
+            <div class="tech-stack">
+              <span>MongoDB</span><span>Express</span><span>React</span
+              ><span>Node.js</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card glass">
+          <div class="project-img bg-pattern-2"></div>
+          <a
+            href="https://github.com/Ninjacodes-rgb/weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Click here</a
+          >
+          <div class="project-info">
+            <h3>Weather App</h3>
+            <p>
+              A simple, dynamic weather application fetching live data via API.
+            </p>
+            <div class="tech-stack">
+              <span>JavaScript</span><span>HTML</span><span>CSS</span
+              ><span>API</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card glass">
+          <div class="project-img bg-pattern-3"></div>
+          <a
+            href="https://github.com/Ninjacodes-rgb/AI-Research-Intelligence-Engine"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Click here</a
+          >
+          <div class="project-info">
+            <h3>AI Research Intelligence Engine</h3>
+            <p>
+              An advanced engine built to accelerate AI research capabilities.
+            </p>
+            <div class="tech-stack"><span>AI/ML</span><span>Python</span></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container reveal">
+      <div class="about-grid">
+        <div class="about-content">
+          <h2 class="section-title">
+            About <span class="gradient-text">Me</span>
+          </h2>
+          <p>
+            I am a student at Narula Institute of Technology dedicated to
+            mastering the art of software development. I bridge the gap between
+            complex backend logic and seamless frontend experiences.
+          </p>
+          <br />
+          <p>
+            I am equally comfortable building in JavaScript (MERN/MEAN) as I am
+            writing high-performance code in Java, C++, or Python. Proficient in
+            architecting databases using MySQL and MongoDB. I am driven by
+            curiosity and a commitment to continuous learning in the
+            ever-evolving tech landscape.
+          </p>
+        </div>
+        <div class="skills glass">
+          <h3>Core Skills</h3>
+          <div class="skill-tags">
+            <span>JavaScript</span>
+            <span>React.js</span>
+            <span>Node.js</span>
+            <span>MERN Stack</span>
+            <span>Python</span>
+            <span>Java</span>
+            <span>C++</span>
+            <span>C</span>
+            <span>Tailwind CSS</span>
+            <span>MySQL</span>
+            <span>MongoDB</span>
+            <span>AI/ML</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container reveal">
+      <div class="contact-wrapper glass">
+        <h2 class="section-title">
+          Let's <span class="gradient-text">Connect</span>
+        </h2>
+        <p>
+          Want to collaborate or have an exciting project in mind? Reach out to
+          me!
+        </p>
+        <form class="contact-form" onsubmit="event.preventDefault()">
+          <input
+            type="text"
+            placeholder="Your Name"
+            required
+            class="glass-input"
+          />
+          <input
+            type="email"
+            placeholder="Your Email"
+            required
+            class="glass-input"
+          />
+          <textarea
+            rows="4"
+            placeholder="Your Message"
+            required
+            class="glass-input"
+          ></textarea>
+          <button type="submit" class="btn-primary" style="width: 100%">
+            Send Message
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Subham Das. Built with raw logic and smooth aesthetics.
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
