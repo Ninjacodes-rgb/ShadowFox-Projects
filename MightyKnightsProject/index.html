@@ -1,1 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kolkata Knight Riders | Korbo Lorbo Jeetbo</title>
+    <meta name="description" content="A premium fan page for Kolkata Knight Riders featuring abstract animations and modern design.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
 
+    <!-- Background Animations -->
+    <div class="abstract-bg">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="noise-overlay"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">KKR <span class="gold">Knights</span></div>
+        <ul class="nav-links">
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#squad">Squad</a></li>
+            <li><a href="#legacy">Legacy</a></li>
+            <li><a href="#games">Games</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main id="app-router">
+        <!-- Hero Section -->
+        <section id="hero" class="hero page section-padding active">
+            <div class="hero-content" data-parallax>
+                <h2 class="hero-subtitle slide-up">Welcome to the Galaxy of Knights</h2>
+                <h1 class="hero-title reveal-text">
+                    <span class="purple-grad">KORBO</span><br>
+                    <span class="gold-grad">LORBO</span><br>
+                    <span class="white-grad">JEETBO</span>
+                </h1>
+                <p class="hero-desc fade-in">Experience the thrill, the passion, and the legacy of the Kolkata Knight Riders.</p>
+                <a href="#squad" class="btn-primary hover-effect">Explore the Squad</a>
+            </div>
+            <div class="hero-visual" data-parallax-reverse>
+                <div class="glass-card floating-card-1">
+                    <div class="card-icon">🏏</div>
+                    <div class="card-text">Champions</div>
+                    <div class="card-year">2012, 2014, 2024</div>
+                </div>
+                <div class="glass-card floating-card-2">
+                    <div class="card-icon">🔥</div>
+                    <div class="card-text">Spirit</div>
+                    <div class="card-year">Unstoppable</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Squad Section -->
+        <section id="squad" class="squad page section-padding">
+            <div class="section-header fade-in-scroll">
+                <h2>The 2026 <span class="gold">Gladiators</span></h2>
+                <p>The stellar lineup ready to conquer.</p>
+            </div>
+            <div class="squad-grid">
+                <div class="player-card glass-panel fade-in-scroll">
+                    <div class="player-image-placeholder p1"></div>
+                    <div class="player-info">
+                        <h3>Shreyas Iyer</h3>
+                        <p class="role">Captain</p>
+                    </div>
+                </div>
+                <div class="player-card glass-panel fade-in-scroll" style="transition-delay: 100ms;">
+                    <div class="player-image-placeholder p2"></div>
+                    <div class="player-info">
+                        <h3>Andre Russell</h3>
+                        <p class="role">All-Rounder</p>
+                    </div>
+                </div>
+                <div class="player-card glass-panel fade-in-scroll" style="transition-delay: 200ms;">
+                    <div class="player-image-placeholder p3"></div>
+                    <div class="player-info">
+                        <h3>Sunil Narine</h3>
+                        <p class="role">Spinner/All-Rounder</p>
+                    </div>
+                </div>
+                <div class="player-card glass-panel fade-in-scroll" style="transition-delay: 300ms;">
+                    <div class="player-image-placeholder p4"></div>
+                    <div class="player-info">
+                        <h3>Rinku Singh</h3>
+                        <p class="role">Finisher</p>
+                    </div>
+                </div>
+                <div class="player-card glass-panel fade-in-scroll" style="transition-delay: 400ms;">
+                    <div class="player-image-placeholder p5"></div>
+                    <div class="player-info">
+                        <h3>Varun Chakaravarthy</h3>
+                        <p class="role">Mystery Spinner</p>
+                    </div>
+                </div>
+                <div class="player-card glass-panel fade-in-scroll" style="transition-delay: 500ms;">
+                    <div class="player-image-placeholder p6"></div>
+                    <div class="player-info">
+                        <h3>Venkatesh Iyer</h3>
+                        <p class="role">All-Rounder</p>
+                    </div>
+                </div>
+                <div class="player-card glass-panel fade-in-scroll" style="transition-delay: 600ms;">
+                    <div class="player-image-placeholder p7"></div>
+                    <div class="player-info">
+                        <h3>Mitchell Starc</h3>
+                        <p class="role">Pacer</p>
+                    </div>
+                </div>
+                <div class="player-card glass-panel fade-in-scroll" style="transition-delay: 700ms;">
+                    <div class="player-image-placeholder p8"></div>
+                    <div class="player-info">
+                        <h3>Phil Salt</h3>
+                        <p class="role">Wicketkeeper/Batter</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Legacy Section -->
+        <section id="legacy" class="legacy page section-padding">
+             <div class="section-header fade-in-scroll">
+                <h2>Our <span class="gold">Legacy</span></h2>
+            </div>
+            <div class="legacy-content glass-panel fade-in-scroll">
+                <div class="legacy-text">
+                    <h3>More than just a team. It's an emotion.</h3>
+                    <p>Since 2008, Kolkata Knight Riders have brought the city of joy to its feet. We don't just play cricket; we define the spirit of fighting back. Three glorious IPL titles and millions of beating hearts.</p>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat-item">
+                        <span class="stat-num">3</span>
+                        <span class="stat-label">IPL Titles</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">17+</span>
+                        <span class="stat-label">Years of Glory</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-num">∞</span>
+                        <span class="stat-label">Passion</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Games Section -->
+        <section id="games" class="games page section-padding">
+            <div class="section-header fade-in-scroll">
+                <h2>Fun <span class="gold">Games</span></h2>
+                <p>Test your knowledge as a true Knight!</p>
+            </div>
+            <div class="game-container glass-panel fade-in-scroll">
+                <div id="quiz-screen" class="quiz-active">
+                    <h3 class="quiz-title">KKR Trivia Challenge</h3>
+                    <div class="quiz-progress">Question <span id="current-q">1</span>/5</div>
+                    <div id="question-text" class="question-text">Loading question...</div>
+                    <div id="options-container" class="options-grid">
+                        <!-- Options injected by JS -->
+                    </div>
+                </div>
+                <div id="result-screen" class="quiz-hidden">
+                    <h3 class="quiz-title">Challenge Complete!</h3>
+                    <div class="score-display">You scored: <span id="final-score" class="gold">0</span>/5</div>
+                    <p id="result-message" class="result-message">Great effort!</p>
+                    <button id="restart-btn" class="btn-primary hover-effect">Play Again</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2026 KKR Fan Page. Crafted with <span class="gold">♥</span> and Code.</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="script.js"></script>
+</body>
+</html>
